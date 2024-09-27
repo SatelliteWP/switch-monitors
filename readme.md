@@ -21,14 +21,14 @@ And **PHP**:
 To install this script, simply go to Library folder and clone this repository:
 
     cd /Library
-    git clone https://github.com/SatelliteWP/switch-monitors.git
-    chmod +x /Library/run.sh
+    sudo git clone https://github.com/SatelliteWP/switch-monitors.git
+    sudo chmod +x /Library/switch-monitors/run.sh
 
 That's it! The installation is completed.
 
 You can call the monitor switching by calling the script from the terminal:
 
-    /Library/run.sh
+    /Library/switch-monitors/run.sh
 
 ## Mapping to a key
 
@@ -39,7 +39,7 @@ To do so, open Automator.
 Create a new "Quick Action" script. Pick "Run AppleScript" and paste the following code :
 
     on run {input, parameters}
-	     do shell script "/Library/switch-monitor/run.sh"
+	     do shell script "/Library/switch-monitors/run.sh"
 	     return input
     end run
 
