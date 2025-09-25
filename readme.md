@@ -1,6 +1,6 @@
 # Switch Monitors for Mac
 
-You have a docking station for your mac and 2 monitors. For some reason, your display configuration often switches your monitor order.
+You have a docking station for your mac and 2 monitors. For some reason, your display configuration often switches your monitor order?
 
 Not anymore!
 
